@@ -1,0 +1,75 @@
+body {
+  background: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor-superior{
+  min-height: 4rem;
+  position: static;
+}
+
+#barra-navegacion{
+  line-height: inherit;
+}
+
+.responsive-img{
+    width: 100px;
+}
+
+#imagenes{
+  height: 260px;
+  padding: 2px;
+  width: 360px;
+}
+#imagenes1{
+  height: 560px;
+  padding: 1px;
+  margin-top: 20px;
+  width: 460px;
+}
+#imagenes2{
+  height: 400px;
+  width: 300px;
+}
+#imagenes3{
+  width: 50px;
+  height: 50px;
+}
+#imagenes4{
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+#fecha{
+  font: oblique bold 80% cursive;
+}
+
+#texto-fotos{
+  font: oblique bold 150% cursive;
+  text-align: center;
+  color: white;
+}
+.formulario {
+  margin-left: 10px;
+}
+h2 {
+  text: flow-text;
+}
+#logo{
+  width: 250px;
+  height: 250px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+  .columna-grupos{
+    padding: 0 !important;
+  }
+}
